@@ -20,7 +20,7 @@ let themeToggle = document.querySelector('#theme-toggle-btn');
 //API SETUP
 //9
 let API = "";
-let API_KEY = "AIzaSyBBASzK9GWe5ckYUMUe4u4gkohfxPEZ_Io";
+
 //8
 let API_URL = `https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-flash:generateContent?key=${API_KEY}`;
 
@@ -162,7 +162,7 @@ chatHistory.push({
     //         textElement.textContent += text.charAt(index);
     //         index++;
     //     } else {
-    //         clearInterval(typingInterval); // ✅ stop when done
+    //         clearInterval(typingInterval); 
     //     }
     // }, 2); 
     //     }
